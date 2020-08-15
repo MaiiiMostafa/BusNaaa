@@ -1,0 +1,37 @@
+<div *ngIf="trip">
+  <div>
+    <label>Bus Id: </label> {{trip.id}}
+  </div>
+  <div>
+    <label>Name: </label> {{trip.name}}
+  </div>
+  <div>
+    <label>Bus :</label> {{trip.bus}}
+  
+  </div>
+
+  <div>
+    <label>Start : </label> {{trip.start}}
+  </div>
+  <div>
+    <label>End :</label> {{trip.end}}
+  </div>
+  <div>
+    <label>Status : </label> {{trip.status}}
+  
+  </div>
+
+  <div>
+    <label>Supervisor : </label> {{trip.supervisor}}
+  
+  </div>
+
+ 
+  
+  <span class="button is-small btn-danger" (click)='deleteTrip()'>Delete</span>
+  <span class="button is-small btn-danger" (click)='editTrip()'>Edit</span>
+ 
+  <hr/>
+ 
+</div>
+

@@ -1,0 +1,8 @@
+<h1>Trips</h1>
+<div *ngFor="let trip of trips" style="width: 300px;">
+  <app-trip-details [trip]='trip'></app-trip-details>
+  
+</div>
+<div style="margin-top:20px;">
+  <button type="button" class="button btn-danger" (click)='deleteTripss()'>Delete All</button>
+</div>

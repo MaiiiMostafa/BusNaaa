@@ -1,0 +1,19 @@
+<div *ngIf="bus">
+  
+  <div>
+    <label>Bus Name : </label> {{bus.name}}
+  </div>
+  <div>
+    <label>Bus Plate :</label> {{bus.plate}}
+  
+  </div>
+
+ 
+  
+  <span class="button is-small btn-danger" (click)='deleteBus()'>Delete</span>
+  <span class="button is-small btn-danger" (click)='editBus()'>Edit</span>
+ 
+  <hr/>
+ 
+</div>
+

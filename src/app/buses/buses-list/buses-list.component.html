@@ -1,0 +1,8 @@
+<h1>Buses</h1>
+<div *ngFor="let bus of buses" style="width: 300px;">
+  <app-bus-details [bus]='bus'></app-bus-details>
+  
+</div>
+<div style="margin-top:20px;">
+  <button type="button" class="button btn-danger" (click)='deletebuses()'>Delete All</button>
+</div>

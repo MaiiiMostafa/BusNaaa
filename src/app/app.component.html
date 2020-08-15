@@ -1,0 +1,31 @@
+<div class="container-fluid">
+  <div style="color: blue;">
+    <!-- <h1>{{title}}</h1>
+    <h3>{{description}}</h3> -->
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-light header">
+    <a  routerLink="home" class="navbar-brand logo">BusNaa</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        
+        <a routerLink="users" class=" nav-link active" role="button" routerLinkActive="active">Users</a>
+        <a routerLink="add" class=" nav-link" role="button" routerLinkActive="active">Add User</a>
+      
+        <a routerLink="buses" class=" nav-link" role="button" routerLinkActive="active">Buses</a>
+        <a routerLink="addBus" class=" nav-link" role="button" routerLinkActive="active">Add Bus</a>
+      
+        <a routerLink="trips" class=" nav-link" role="button" routerLinkActive="active">Trips</a>
+        <a routerLink="addTrip" class=" nav-link" role="button" routerLinkActive="active">Add Trip</a>
+  
+        <a routerLink="home" class=" nav-link" role="button" routerLinkActive="active">About</a>
+      </div>
+    </div>
+  </nav>
+  
+  
+  <router-outlet></router-outlet>
+</div>
